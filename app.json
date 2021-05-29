@@ -5,8 +5,17 @@
     "name": "gofinance",
     "slug": "gofinance",
     "version": "1.0.0",
+    "icon": "./src/assets/Logo.svg",
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "ios": {
+      "bundleIdentifier": "com.amaro.goFinances",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.amaro.goFinances",
+      "versionCode": 1
+    }
   }
 }
